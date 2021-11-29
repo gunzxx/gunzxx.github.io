@@ -123,8 +123,8 @@ body{
 .sidebar img{
 	width: 70px;
 	height: 70px;
-	float: left;
-	padding-right: 10px;
+	float: right;
+	padding-left: 10px;
 }
 .sidebar p{
 	padding-top: 5px;
