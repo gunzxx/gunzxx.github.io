@@ -50,7 +50,7 @@ body{
 }
 
 .container{
-	width: 800px;
+	width: 960px;
 	margin: auto;
 	background-color: white;
 }
@@ -77,31 +77,58 @@ body{
 	color: grey;
 }
 .hero{
-	height: 300px;
+	height: 320px;
 	background-image: url(../img/hero.jpg);
 	background-size: cover;
-	background-position: 0 -80px;
+	background-position: 0 -110px;
 	border-top: 5px solid lightskyblue;
 	border-bottom: 5px solid lightgreen;
 }
-.content{
+.main{
+	width: 600px;
 	padding: 20px;
+	box-sizing: border-box;
+	float: left;
 }
-.content h2{
+.main h2{
 	font-size : 28px;
 	font-weight: bold;
 }
-.content .penulis{
+.main .penulis{
 	font-size: 11px;
 	margin-top: -5px;
 }
-.content .penulis a{
+.main .penulis a{
 	color: salmon;
 	text-decoration: none;
 }
-.content p{
+.main p{
 	margin-bottom : 20px;
 	font-size: 13px;
+}
+.vertikal{
+	border: 2px solid black;
+	height: 1000px;
+	width: 0px;
+}
+.sidebar{
+	width: 300px;
+	float: right;
+	padding: 20px;
+}
+.sidebar h3{
+	font-weight: bold;
+	color: #666;
+}
+.sidebar img{
+	width: 70px;
+	height: 70px;
+	float: left;
+	padding-right: 10px;
+}
+.sidebar p{
+	padding-top: 5px;
+	font: 13px arial;
 }
 .footer{
 	background-color: #333;
@@ -111,4 +138,17 @@ body{
 	color: #eaeaea;
 	text-align-last: center;
 	font-size: 12px;
+}
+
+/*Clear Fix*/
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+.cf:after {
+    clear: both;
+}
+.cf {
+    *zoom: 1;
 }
