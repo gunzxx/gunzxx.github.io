@@ -1,0 +1,47 @@
+/* Property pada container :
+- flex-direction: row | row-reverse | column | column-reverse;
+- flex-wrap: nowrap | wrap | wrap-reverse;
+- justify-content: flex-start | flex-end | center | space-between | space-around | space-evenly | start | end | left | right ... + safe | unsafe;
+- align-items: stretch | flex-start | flex-end | center | baseline | first baseline | last baseline | start | end | self-start | self-end + ... safe | unsafe;
+
+- align-content:flex-start | flex-end | center | space-between | space-around ;
+
+*/
+
+/* property pada item :
+- order : untuk mengatur urutan item tanpa mengubah html nya;
+- flex-grow : mengatur ukuran item tanpa;
+- align-self:;
+*/
+
+
+.container{
+	width: 600px;
+	height: 150px;
+	border: 5px solid #333;
+	margin: 30px auto;
+	padding: 5px;
+	box-sizing: border-box;
+	display: flex;
+	/*flex-direction: row;*/
+	/*flex-wrap: wrap;*/
+	/*justify-content: space-evenly;*/
+	/*align-items: flex-start;*/
+
+}
+.container div{
+	/*width: 120px;
+	height: 120px;*/
+	background-color: rgb(19, 133, 255);
+	margin: 2px;
+	flex-grow: 1;
+}
+.container div.dua{
+	flex-grow: 2;
+	align-self: center;
+}
+
+.satu{order: 3;}
+.dua{order: 2;}
+.tiga{order: 1;}
+.empat{order: 2;}
