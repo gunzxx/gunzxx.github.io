@@ -1,63 +1,213 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="css/body.css">
-	<link rel="stylesheet" href="css/style.css">
-	<title>My Web</title>
-</head>
-<body>
-	<div class="container">
-		<div class="header">
-			<h1 class="judul">My Website</h1>
-			<ul>
-				<li><a href="#">home</a></li>
-				<li><a href="#">about</a></li>
-				<li><a href="#">product</a></li>
-				<li><a href="#">services</a></li>
-				<li><a href="#">contact</a></li>
-			</ul>
-		</div>
-		<div class="hero"></div>
-		<div class="content cf">
-			<div class="main">
-				<h2>Apa itu HTML?</h2>
-				<p class="penulis">
-					Ditulis oleh <a href="#">Guntur W</a>, pada tahun 2021.
-				</p>
-				<p style="text-indent: 45px">
-					Hypertext Markup Language atau HTML adalah bahasa markup yang digunakan untuk membuat struktur halaman website. HTML terdiri dari kombinasi teks dan simbol yang disimpan dalam sebuah file. Dalam membuat file HTML, terdapat standar atau format khusus yang harus diikuti. Format tersebut telah tertuang dalam standar kode internasional atau ASCII (American Standard Code for Information Interchange). 
-				</p>
-				<p style="text-indent: 45px">
-					Dengan adanya HTML, pengguna dapat membuat atau menyusun heading, paragraf, gambar, link, dan lainnya supaya dapat dilihat banyak orang melalui halaman website. Untuk bisa diakses secara umum, pengguna perlu membukanya lewat aplikasi browser, seperti Internet Explorer, Chrome, atau Mozilla Firefox. Setelah mengetahui pengertian HTML di atas, Anda mungkin penasaran bagaimana sejarah lahirnya HTML hingga saat ini? Untuk itu, mari simak terlebih dulu sejarah HTML berikut.
-				</p>
-				<h2>Sejarah HTML</h2>
-				<br>
-				<p style="text-indent: 45px">Tim Berners-Lee merupakan sosok ilmuwan dibalik lahirnya HTML. Di tahun 1991, ia awalnya menciptakan HTML sebagai solusi untuk memudahkan para ilmuwan dalam mengakses dokumen satu sama lain.</p>
-				<p style="text-indent: 45px">Selang setahun kemudian, HTML mulai dapat digunakan untuk umum. Sejarah penggunaan HTML secara umum ini pun tak bisa lepas dari peran World Wide Web atau yang kita kenal dengan WWW. Keduanya saling bersinergi supaya informasi yang ingin disebarkan bisa diakses oleh banyak orang. Tak disangka, kini HTML telah berevolusi menjadi bahasa markup yang telah digunakan oleh lebih dari 92,3% persen website di dunia. Selama perjalanannya, HTML tentu mengalami perkembangan yang cukup pesat.</p>
-			</div>
-			<!-- <div class="vertikal"></div> -->
-			<div class="sidebar">
-				<div class="tentang">
-					<h3>Tentang Penulis</h3>
-					<img src="img/gunz.png" alt="gunz" style="width: 100px; height: 100px;">
-					<p align="justify">Lorem ipsum dolor, sit, amet consectetur adipisicing elit. Reprehenderit voluptatibus blanditiis eligendi veniam ratione placeat officiis, quia labore sint fugit sapiente quis magnam asperiores dignissimos sunt possimus quo dolorem, exercitationem. Dolorem optio, modi dolores quos quaerat ea consequatur, nihil unde illum aliquam! Odio alias quas enim facere consequuntur debitis accusantium nesciunt temporibus quibusdam obcaecati quis neque repellendus, quia, quaerat sapiente labore. Suscipit deserunt perspiciatis minima aut cumque quae placeat quod error id blanditiis alias, praesentium corrupti ab accusantium voluptatum quas rem autem numquam sit nobis mollitia impedit vitae? Harum, doloremque, officiis. Provident blanditiis eum omnis cupiditate, dolorum iste excepturi commodi.</p>
-				</div>
-				<div class="project">
-					<h3><center>My project</center></h3>
-					<ul>
-						<li><a href="project/lightbox/lightbox.html" target="blank">Lightbox</a></li>
-						<li><a href="project/flexbox/index.html" target="blank">Flexbox</a></li>
-						<li><a href="#">project3</a></li>
-					</ul>
-				</div>
-			</div>
-		</div>
-		<div class="footer">
-			<p class="cr">Copyright 2k21 by gunzxx</p>
-		</div>
-	</div>
+<html lang="en" id="home">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Ngobar 2</title>
 
-</body>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" href="">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a href="#home" class="navbar-brand page-scroll">Gunzxx</a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#about" class="page-scroll">About</a></li>
+            <li><a href="#portofolio" class="page-scroll">My Favorite</a></li>
+            <li><a href="#contact" class="page-scroll">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- akhir navbar -->
+
+  	<!-- Jumbotron -->
+  	<div class="jumbotron text-center header">
+  		<img src="img/gunz.png" class="img-circle" alt="gunz">
+  		<h1>Gunzxx</h1>
+  		<p>Student | Programmer | Editor</p>
+  	</div>
+  	<!-- Akhir Jumbotron -->
+
+  	<!-- About -->
+  	<section class="about" id="about">
+  		<div class="container">
+  			<div class="row">
+  				<div class="col-sm-12">
+  					<h2 class="text-center">About</h2>
+  					<hr>
+  				</div>
+  			</div>
+  			<div class="row">
+  				<div class="col-sm-5 col-sm-offset-1">
+  					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, obcaecati? Dolores, voluptas ullam vel omnis voluptatem veritatis nesciunt eveniet est cumque quis atque repellat maxime harum modi et illo. Molestiae!</p>
+  				</div>
+  				<div class="col-sm-5 ">
+  					<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum earum, corrupti placeat eaque optio nisi odit qui accusamus exercitationem eligendi! Nostrum voluptatibus consectetur unde amet temporibus consequuntur, omnis alias expedita.</p>
+  				</div>
+  			</div>
+  			<div class="row text-center">
+  				<div class="col-sm-12">
+  					<h2>My project</h2>
+  					<hr>
+  				</div>
+  			</div>
+  			<div class="row text-center">
+  				<div class="project col-sm-12">
+  					<div class="pr1 pr">
+	  					<ul>
+	  						<li><a href="">project1</a></li>
+	  						<li><a href="">project2</a></li>
+	  						<li><a href="">project3</a></li>
+	  						<li><a href="">project4</a></li>
+	  					</ul>
+  					</div>
+  					<div class="pr2 pr">
+	  					<ul>
+	  						<li><a href="">project5</a></li>
+	  						<li><a href="">project6</a></li>
+	  						<li><a href="">project7</a></li>
+	  						<li><a href="">project8</a></li>
+	  					</ul>
+  					</div>
+  				</div>
+  			</div>
+  		</div>
+  	</section>
+  	<!-- Akhir About -->
+
+  	<!-- portofolio -->
+  	<section class="portofolio" id="portofolio">
+  		<div class="container">
+  			<div class="row">
+  				<div class="col-sm-12 text-center">
+  					<h2>My Favorite</h2>
+  					<hr>
+  				</div>
+  			</div>
+  			<div class="row">
+  				<div class="col-xs-4">
+  					<a href="" class="thumbnail">
+  						<img src="img/1.jpg">
+  					</a>
+  				</div>
+  				<div class="col-xs-4">
+  					<a href="" class="thumbnail">
+  						<img src="img/2.jpg">
+  					</a>
+  				</div>
+  				<div class="col-xs-4">
+  					<a href="" class="thumbnail">
+  						<img src="img/3.jpg">
+  					</a>
+  				</div>
+  				<div class="col-xs-4">
+  					<a href="" class="thumbnail">
+  						<img src="img/4.jpg">
+  					</a>
+  				</div>
+  				<div class="col-xs-4">
+  					<a href="" class="thumbnail">
+  						<img src="img/5.jpg">
+  					</a>
+  				</div>
+  				<div class="col-xs-4">
+  					<a href="" class="thumbnail">
+  						<img src="img/6.jpg">
+  					</a>
+  				</div>
+  			</div>
+  		</div>
+  	</section>
+  	<!-- akhir portofolio -->
+
+  	<!-- kontak -->
+  	<section class="contact" id="contact">
+  		<div class="container">
+	  		<div class="row">
+	  			<div class="col-sm-12 text-center">
+	  				<h2>Contact</h2>
+	  				<hr>
+	  			</div>
+	  		</div>
+	  		<div class="row">
+	  			<div class="col-sm-8 col-sm-offset-2">
+	  				<form>
+	  					<div class="form-group">
+	  						<label for="nama">Nama</label>
+	  						<input type="text" name="nama" id="nama" class="form-control" placeholder="Masukkan nama">
+	  					</div>
+	  					<div class="form-group">
+	  						<label for="email">Email</label>
+	  						<input type="text" name="email" id="email" class="form-control" placeholder="Masukkan email">
+	  					</div>
+	  					<div class="form-group">
+	  						<label for="handphone">Handphone</label>
+	  						<input type="tel" name="handphone" id="handphone" class="form-control" placeholder="Masukkan nomor handphone">
+	  					</div>
+	  					<div class="form-group">
+	  						<label for="warna">Warna kesukaan</label>
+		  					<select class="form-control" id="warna">
+		  						<option>Pilih warna :</option>
+		  						<option>merah</option>
+		  						<option>kuning</option>
+		  						<option>hijau</option>
+		  					</select>
+	  					</div>
+	  					<div class="form-group">
+	  						<label for="pesan">Pesan :</label>
+	  						<textarea class="form-control" id="pesan" rows="10" placeholder="Masukkan pesan"></textarea>
+	  					</div>
+	  					<div class="form-group">
+	  						<button type="submit" class="btn btn-info">Submit</button>
+	  					</div>
+	  				</form>
+	  			</div>
+	  		</div>
+  		</div>
+  	</section>
+  	<!-- akhir kontak -->
+
+  	<!-- footer -->
+	<div class="foot">
+	  	<footer class="footer" id="footer">
+	  		<div class="container">
+	  			<div class="row text-center cr">
+	  				<h5>&copy; Copyright 2021 | by <a href="https://www.instagram.com/guntur_w123">gunzxx</a></h5>
+	  				<a href="https://www.linkedin.com/in/gunzxx/" class="btn btn-info"><i class="glyphicon glyphicon-plus-sign"></i> Follow my LinkedIn</a>
+	  			</div>
+	  		</div>
+	  	</footer>
+	</div>
+  	<!-- akhir footer -->
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+  </body>
 </html>

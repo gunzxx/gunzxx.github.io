@@ -1,0 +1,94 @@
+/*@font-face{
+	font-family: 'obelixpro';
+	src: url(font/ObelixPro.ttf) format('ttf');
+}
+@font-face{
+	font-family: 'bebasneue';
+	src: url(../font/bebasneue.woff) format('woff');
+}*/
+
+/*jumbotron*/
+.header{
+	margin-top: 30px;
+}
+.jumbotron img{
+	width: 200px;
+	height: 200px;
+	border: 5px solid #aaa;
+}
+
+hr{
+	width: 250px;
+	border-top: 4px solid #aaa;
+}
+/*akhir jumbotron*/
+
+/*section*/
+section{
+	min-height: 600px;
+}
+
+/*akhir section*/
+
+/*project*/
+.project{
+	background: linear-gradient(135deg,#eee, rgba(187,187,187,.7));
+	/*min-width: 600px;
+	min-height: 400px;*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.pr{
+	width: 50%;
+	padding: 15px;
+}
+.pr ul li{
+	list-style-type: none;
+}
+.pr ul li a{
+	font-family: serif;
+	font-size: 20px;
+	color: #333;
+}
+/*akhir project*/
+
+/*portofolio*/
+.portofolio{
+	background-color: #eee;
+}
+/*akhir portofolio*/
+
+
+/*Footer*/
+.foot{
+	margin-top: 10px;
+	position: relative;
+	min-height: 100px;
+	box-sizing: border-box;
+}
+footer{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	padding: 15px;
+	min-height: 100px;
+	background-color: #333;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+h5{
+	font-size: 15px;
+	font-family: serif;
+	color: #aaa;
+}
+h5 a{
+	font-family: inherit;
+	text-decoration: none;
+	color: inherit;
+}
+h5 a:hover{
+	text-decoration: none;
+	/*color: linear-gradient(to right,red,white);*/
+}
