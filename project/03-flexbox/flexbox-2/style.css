@@ -1,0 +1,103 @@
+/* Property pada container :
+- flex-direction: row | row-reverse | column | column-reverse;
+- flex-wrap: nowrap | wrap | wrap-reverse;
+- justify-content: flex-start | flex-end | center | space-between | space-around | space-evenly | start | end | left | right ... + safe | unsafe;
+- align-items: stretch | flex-start | flex-end | center | baseline | first baseline | last baseline | start | end | self-start | self-end + ... safe | unsafe;
+
+- align-content:flex-start | flex-end | center | space-between | space-around ;
+
+*/
+
+/* property pada item :
+- order : untuk mengatur urutan item tanpa mengubah html nya;
+- flex-grow : mengatur ukuran item tanpa;
+- align-self:;
+*/
+
+.content{
+	width: 960px;
+	height: 500px;
+	margin: 10px auto;
+	background-color: #ccc;
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+	order: 2;
+	justify-content: space-between;
+	border: 3px solid #aaa;
+	box-sizing: border-box;
+}
+.judul{
+	height: 15%;
+	background-color: lime;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.kotak{
+	height: 80%;
+	background-color: #fff;
+	display: flex;
+	justify-content: space-evenly;
+	overflow: hidden;
+	padding: 10px;
+}
+.item:hover{
+	transform: scale(1.08);
+}
+.kotak .satu{
+	width: 30%;
+	background-color: red;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/*border: 3px solid black;*/
+	box-shadow: 1px 1px 3px black;
+	box-sizing: border-box;
+}
+.kotak .dua{
+	width: 30%;
+	background-color: salmon;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/*border: 3px solid black;*/
+	box-shadow: 1px 1px 3px black;
+	box-sizing: border-box;
+}
+.kotak .tiga{
+	width: 30%;
+	background-color: lightgreen;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/*border: 3px solid black;*/
+	box-shadow: 1px 1px 3px black;
+	box-sizing: border-box;
+}
+
+.header{
+	width: 960px;
+	height: 200px;
+	background-color: #FFFF00;
+	margin: 10px auto;
+	display: flex;
+	order: 1;
+	justify-content: center;
+	align-items: center;
+	border: 3px solid #dd0;
+	box-sizing: border-box;
+}
+
+.footer{
+	width: 960px;
+	height: 100px;
+	background-color: lightblue;
+	margin: 10px auto;
+	display: flex;
+	order: 3;
+	align-items: center;
+	justify-content: center;
+	border: 3px solid #0cd;
+	box-sizing: border-box;
+}
