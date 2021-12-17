@@ -73,7 +73,7 @@ footer{
 	width: 100%;
 	padding: 15px;
 	min-height: 100px;
-	background: #aaa;
+	background: #333;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -86,7 +86,7 @@ h5{
 h5 a{
 	font-family: inherit;
 	text-decoration: none;
-	color: inherit;
+	color: #aaa;
 }
 h5 a:hover{
 	text-decoration: none;
