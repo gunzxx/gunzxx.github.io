@@ -73,7 +73,7 @@ footer{
 	width: 100%;
 	padding: 15px;
 	min-height: 100px;
-	background: rgb(181,181,181);
+	background-color: #333;
 	display: flex;
 	align-items: center;
 	justify-content: center;
