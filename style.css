@@ -7,11 +7,11 @@
 	src: url(../font/bebasneue.woff) format('woff');
 }*/
 
+
+/*jumbotron*/
 .header{
 	margin-top: 30px;
 }
-
-/*jumbotron*/
 .jumbotron{
 	/*background: #000;*/
 	background-image: url('img/bgjum.jpg');
@@ -28,6 +28,9 @@
 	height: 200px;
 	border: 5px solid #aaa;
 	z-index: 1;
+}
+.jumbotron p{
+	color: #111;
 }
 
 hr{
