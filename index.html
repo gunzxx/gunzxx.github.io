@@ -4,19 +4,11 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Gunzxx</title>
 
     <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="bs/bootstrap.min.css" rel="stylesheet"> <!-- Untuk membuat responsif navbar dan pembuatan button -->
     <link href="style.css" rel="stylesheet" href="">
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
   </head>
   <body>
     <!-- navbar -->
@@ -35,8 +27,9 @@
         <div class="collapse navbar-collapse" id="navbar-collapse-1">
           <ul class="nav navbar-nav navbar-right">
             <li><a href="#about" class="page-scroll">About</a></li>
-            <li><a href="#portofolio" class="page-scroll">My Favorite</a></li>
-            <li><a href="#contact" class="page-scroll">Contact</a></li>
+            <li><a href="#portofolio" class="page-scroll">Super Hero</a></li>
+            <li><a href="#pesan" class="page-scroll">Message</a></li>
+            <li><a href="https://wa.me/+62895370015252" target="_blank" style="color: #fff;">Contact</a></li>
           </ul>
         </div>
       </div>
@@ -45,7 +38,8 @@
 
   	<!-- Jumbotron -->
   	<div class="jumbotron text-center header">
-  		<img src="img/gunz.png" class="img-circle" alt="gunz">
+  		<!-- <img src="img/bgjum.jpg" class="bgjum" alt=""> -->
+  		<img src="img/gunz.png" class="img-circle gunz" alt="gunz">
   		<h1>Gunzxx</h1>
   		<p>Student | Programmer | Editor</p>
   	</div>
@@ -56,16 +50,18 @@
   		<div class="container">
   			<div class="row">
   				<div class="col-sm-12">
-  					<h2 class="text-center">About</h2>
+  					<h2 class="text-center">About Me</h2>
   					<hr>
   				</div>
   			</div>
   			<div class="row">
-  				<div class="col-sm-5 col-sm-offset-1">
-  					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, obcaecati? Dolores, voluptas ullam vel omnis voluptatem veritatis nesciunt eveniet est cumque quis atque repellat maxime harum modi et illo. Molestiae!</p>
+  				<div align="justify" class="col-sm-5 col-sm-offset-1">
+  					<p>Halo guys!</p>
+  					<p>Kenalin namaku Guntur Wahyudi. Aku berasal dari Jember. Aku suka membuat suatu inovasi dan mengembangkannya jadi sesuatu yang dapat bermanfaat bagiku dan juga orang lain.</p>
   				</div>
-  				<div class="col-sm-5 ">
-  					<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum earum, corrupti placeat eaque optio nisi odit qui accusamus exercitationem eligendi! Nostrum voluptatibus consectetur unde amet temporibus consequuntur, omnis alias expedita.</p>
+  				<div class="col-sm-5" align="justify">
+  					<p>Website ini merupakan projek portolio pertamaku. Meskipun terlihat simple, website ini merupakan portofolio yang paling berkesan bagiku karena ini merupakan langkah awal aku membuat web. Untuk kalian yang ingin memberi kritik dan saran, kalian bisa tekan Contact pada menu di atas ya...</p>
+  					<p>Thank You!!!</p>
   				</div>
   			</div>
   			<div class="row text-center">
@@ -78,16 +74,16 @@
   				<div class="project col-sm-12">
   					<div class="pr1 pr">
 	  					<ul>
-	  						<li><a href="">project1</a></li>
-	  						<li><a href="">project2</a></li>
-	  						<li><a href="">project3</a></li>
-	  						<li><a href="">project4</a></li>
+	  						<li><a href="project/01-position/index.html" target="_blank">CSS Position</a></li>
+	  						<li><a href="project/02-lightbox/index.html" target="_blank">Lightbox</a></li>
+	  						<li><a href="project/03-flexbox/flexbox-1/index.html" target="_blank">Flexbox 1</a></li>
+	  						<li><a href="project/03-flexbox/flexbox-2/flexbox.html" target="_blank">Flexbox 2</a></li>
 	  					</ul>
   					</div>
   					<div class="pr2 pr">
 	  					<ul>
-	  						<li><a href="">project5</a></li>
-	  						<li><a href="">project6</a></li>
+	  						<li><a href="https://gunzxx.github.io/indoclasher" target="_blank">My Clan Website - Indo Clasher</a></li>
+	  						<li><a href="https://gunzxx.github.io/kartuucapan1" target="_blank">Kartu Ucapan 1</a></li>
 	  						<li><a href="">project7</a></li>
 	  						<li><a href="">project8</a></li>
 	  					</ul>
@@ -103,7 +99,7 @@
   		<div class="container">
   			<div class="row">
   				<div class="col-sm-12 text-center">
-  					<h2>My Favorite</h2>
+  					<h2>Super Hero</h2>
   					<hr>
   				</div>
   			</div>
@@ -143,42 +139,43 @@
   	</section>
   	<!-- akhir portofolio -->
 
-  	<!-- kontak -->
+  	<!-- pesan -->
   	<section class="contact" id="contact">
   		<div class="container">
 	  		<div class="row">
 	  			<div class="col-sm-12 text-center">
-	  				<h2>Contact</h2>
+	  				<h2>Message</h2>
 	  				<hr>
 	  			</div>
 	  		</div>
 	  		<div class="row">
 	  			<div class="col-sm-8 col-sm-offset-2">
-	  				<form>
+	  				<form method="GET">
 	  					<div class="form-group">
 	  						<label for="nama">Nama</label>
-	  						<input type="text" name="nama" id="nama" class="form-control" placeholder="Masukkan nama">
+	  						<input type="text" required name="nama" id="nama" class="form-control" placeholder="Masukkan nama">
 	  					</div>
 	  					<div class="form-group">
 	  						<label for="email">Email</label>
-	  						<input type="text" name="email" id="email" class="form-control" placeholder="Masukkan email">
+	  						<input type="text" required name="email" id="email" class="form-control" placeholder="Masukkan email">
 	  					</div>
 	  					<div class="form-group">
 	  						<label for="handphone">Handphone</label>
-	  						<input type="tel" name="handphone" id="handphone" class="form-control" placeholder="Masukkan nomor handphone">
+	  						<input type="tel" required name="handphone" id="handphone" class="form-control" placeholder="Masukkan nomor handphone">
 	  					</div>
 	  					<div class="form-group">
 	  						<label for="warna">Warna kesukaan</label>
-		  					<select class="form-control" id="warna">
+		  					<select class="form-control" id="warna" required >
 		  						<option>Pilih warna :</option>
 		  						<option>merah</option>
 		  						<option>kuning</option>
 		  						<option>hijau</option>
+                  <option>biru</option>
 		  					</select>
 	  					</div>
 	  					<div class="form-group">
 	  						<label for="pesan">Pesan :</label>
-	  						<textarea class="form-control" id="pesan" rows="10" placeholder="Masukkan pesan"></textarea>
+	  						<textarea  required class="form-control" id="pesan" rows="10" placeholder="Masukkan pesan"></textarea>
 	  					</div>
 	  					<div class="form-group">
 	  						<button type="submit" class="btn btn-info">Submit</button>
@@ -188,7 +185,7 @@
 	  		</div>
   		</div>
   	</section>
-  	<!-- akhir kontak -->
+  	<!-- akhir pesan -->
 
   	<!-- footer -->
 	<div class="foot">

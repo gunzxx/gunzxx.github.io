@@ -7,14 +7,27 @@
 	src: url(../font/bebasneue.woff) format('woff');
 }*/
 
-/*jumbotron*/
 .header{
 	margin-top: 30px;
 }
-.jumbotron img{
+
+/*jumbotron*/
+.jumbotron{
+	/*background: #000;*/
+	background-image: url('img/bgjum.jpg');
+	/*filter: saturate(30%);*/
+}
+/*
+.jumbotron .bgjum{
+	width: 100%;
+	position: relative;
+	z-index: 0;
+}*/
+.jumbotron .gunz{
 	width: 200px;
 	height: 200px;
 	border: 5px solid #aaa;
+	z-index: 1;
 }
 
 hr{
