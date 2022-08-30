@@ -12,21 +12,23 @@
 	margin-top: 30px;
 }
 .jumbotron{
-	background-image: url(img/header-bg.jpg);
-	background-position: 10px 0;
-	/*background-attachment: fixed;*/
+	background-image: url(img/galeri/5.jpg);
+	background-position: 30px 0;
+	background-attachment: fixed;
 	background-size: cover;
 	overflow: hidden;
 }
 .jumbotron img{
-	width: 200px;
-	height: 200px;
-	border: 3px solid #777;
-	box-shadow: 1px 1px 10px rgba(0,0,0,.5);
+	width: 150px;
+	height: 150px;
+	margin-top: 5vh;
+	box-shadow: 0px 0px 5px lightblue;
+	border: 2px solid lightblue;
+	box-sizing: border-box;
 }
 .jumbotron h1, .jumbotron p{
 	color: #eaeaea;
-	text-shadow: 1px 1px 6px #aaa;
+	text-shadow: 1px 1px 6px blue;
 }
 
 hr{
@@ -79,22 +81,28 @@ section{
 }
 /*akhir project*/
 
-/*portofolio*/
-.portofolio{
+/*galeri*/
+.galeri{
 	background-color: #eee;
 }
 
-.portofolio .thumbnail{
+.galeri .thumbnail{
+	/* width: 100%; */
+	/* height: 300px; */
 	opacity: 0;
-	transition: 0.7s;
+	transition: 0.5s;
 	transform: translate(0, -50px);
 }
-.portofolio .thumbnail.muncul{
+.thumbnail:hover{
+	border: 1px solid black;
+}
+.galeri .thumbnail.muncul{
 	opacity: 1;
 	transform: translate(0, 0);
 }
 
-/*akhir portofolio*/
+
+/*akhir galeri*/
 
 
 /*Footer*/
