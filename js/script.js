@@ -16,13 +16,16 @@ $('.page-scroll').on('click', function(e) {
 
 });
 
+
+
+
 // Parallax
 // About
 $(window).on('load', function() {
 	$('.pKiri, .pKanan').addClass('pMuncul');
 });
 
-// Portofolio
+// Galeri
 $(window).scroll(function(){
 	var jarakWindowScroll = $(this).scrollTop();
 	
@@ -38,17 +41,17 @@ $(window).scroll(function(){
 	});
 
 
-	// Portofolio
-	if (jarakWindowScroll > $('.portofolio').offset().top-350){
-		$('.portofolio .thumbnail').each(function(i){
+	// Galeri
+	if (jarakWindowScroll > $('.galeri').offset().top-350){
+		$('.galeri .thumbnail').each(function(i){
 			setTimeout(function(){
-				$('.portofolio .thumbnail').eq(i).addClass('muncul')
+				$('.galeri .thumbnail').eq(i).addClass('muncul')
 			},200 * i);
 		});
-	}else if (jarakWindowScroll < $('.portofolio').offset().top-350){
-		$('.portofolio .thumbnail').each(function(i){
+	}else if (jarakWindowScroll < $('.galeri').offset().top-350){
+		$('.galeri .thumbnail').each(function(i){
 			setTimeout(function(){
-				$('.portofolio .thumbnail').eq(i).removeClass('muncul')
+				$('.galeri .thumbnail').eq(i).removeClass('muncul')
 			},200 * i);
 		});
 	}
