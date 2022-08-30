@@ -12,9 +12,9 @@
 	margin-top: 30px;
 }
 .jumbotron{
-	background-image: url(img/header-bg.jpg);
-	background-position: 10px 0;
-	/*background-attachment: fixed;*/
+	background-image: url(img/galeri/5.jpg);
+	background-position: 30px 0;
+	background-attachment: fixed;
 	background-size: cover;
 	overflow: hidden;
 }
