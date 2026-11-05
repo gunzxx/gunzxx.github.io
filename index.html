@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio Gunz — Full-Stack Developer & Roblox Developer. Building web applications, APIs, and interactive experiences." />
+  <title>Gunz</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="noise"></div>
+  <div class="cursor-glow"></div>
+
+  <header class="nav-wrap">
+    <nav class="nav container">
+      <a class="brand" href="#home" aria-label="Gunz home">
+        <span class="brand-mark">G</span>
+        <span>gunz<span class="muted">.dev</span></span>
+      </a>
+
+      <button class="menu-btn" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span>
+      </button>
+
+      <div class="nav-links">
+        <a href="#work">Work</a>
+        <a href="#stack">Stack</a>
+        <a href="#about">About</a>
+        <a href="#contact" class="nav-cta">Let's talk <span>↗</span></a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="home">
+    <section class="hero container">
+      <div class="hero-copy reveal">
+        <div class="eyebrow"><span class="status-dot"></span> AVAILABLE FOR OPPORTUNITIES</div>
+        <h1>I turn <span class="outline-word">ideas</span><br>into <span class="gradient-word">things that work.</span></h1>
+        <p class="hero-text">
+          Full-stack developer focused on <strong>web applications, APIs, and interactive experiences</strong> —
+          from Laravel backends to Roblox systems.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#work" class="btn btn-primary">Explore my work <span>↓</span></a>
+          <a href="#contact" class="btn btn-ghost">Start a conversation <span>↗</span></a>
+        </div>
+
+        <div class="hero-meta">
+          <span>Based in Indonesia</span>
+          <span class="meta-line"></span>
+          <span>IT • Full-Stack • Roblox</span>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal delay-1">
+        <div class="orb orb-a"></div>
+        <div class="orb orb-b"></div>
+        <div class="code-card">
+          <div class="code-top">
+            <span class="traffic"><i></i><i></i><i></i></span>
+            <span class="file-name">developer.js</span>
+            <span class="live-label">LIVE</span>
+          </div>
+          <pre><code><span class="kw">const</span> <span class="var">developer</span> = {
+  <span class="key">name</span>: <span class="str">"Gunz"</span>,
+  <span class="key">focus</span>: [
+    <span class="str"></span>
+    <span class="str">"Web"</span>,
+    <span class="str">"Full Stack"</span>,
+    <span class="str">"API"</span>,
+    <span class="str">"Roblox Dev"</span>
+  ],
+  <span class="key">mindset</span>: <span class="str">"build → learn → improve"</span>
+};
+
+<span class="kw">while</span> (<span class="var">true</span>) {
+  <span class="fn">create</span>();
+  <span class="fn">iterate</span>();
+}</code></pre>
+          <div class="code-status">
+            <span><b></b> building something useful</span>
+            <span>01 / 04</span>
+          </div>
+        </div>
+
+        <div class="floating-card fc-one">
+          <span class="float-icon">⌘</span>
+          <div><small>PRIMARY</small><strong>Full-Stack</strong></div>
+        </div>
+        <div class="floating-card fc-two">
+          <span class="float-icon">◈</span>
+          <div><small>CREATIVE</small><strong>Roblox Dev</strong></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="marquee" aria-label="Skills">
+      <div class="marquee-track">
+        <span>PHP</span><b>✦</b><span>LARAVEL</span><b>✦</b><span>JAVASCRIPT</span><b>✦</b>
+        <span>REACT</span><b>✦</b><span>NEXT.JS</span><b>✦</b><span>ROBLOX LUA</span><b>✦</b>
+        <span>REST API</span><b>✦</b><span>FLUTTER</span><b>✦</b>
+        <span>PHP</span><b>✦</b><span>LARAVEL</span><b>✦</b><span>JAVASCRIPT</span><b>✦</b>
+        <span>REACT</span><b>✦</b><span>NEXT.JS</span><b>✦</b><span>ROBLOX LUA</span><b>✦</b>
+        <span>REST API</span><b>✦</b><span>FLUTTER</span><b>✦</b>
+      </div>
+    </section>
+
+    <section id="work" class="section container">
+      <div class="section-head reveal">
+        <div>
+          <span class="section-number">01 / SELECTED WORK</span>
+          <h2>My <em>Best</em> Project</h2>
+        </div>
+        <p>Projects that show how I think, build, debug, and turn messy requirements into working systems.</p>
+      </div>
+
+      <div class="projects">
+        <a href="https://github.com/my-builder-org/be" target="_blank" class="project project-main reveal">
+          <!-- <div class="project-visual mybuilder">
+            <span class="project-tag">WEB APP / UNDERGRADUATE THESIS PROJECT</span>
+            <div class="browser-window">
+              <div class="browser-bar"><i></i><i></i><i></i><span>mybuilder.my.id</span></div>
+              <div class="browser-content">
+                <div class="mini-logo">MY<span>BUILDER</span></div>
+                <div class="mini-hero">Find the right<br><b>builder.</b></div>
+                <div class="mini-search">⌕ Search for a service...</div>
+                <div class="mini-cards"><i></i><i></i><i></i></div>
+              </div>
+            </div>
+          </div> -->
+          <img src="img/mybuilder.png" style="min-height: 100%; width: 100%;">
+          <div class="project-info">
+            <div>
+              <span class="project-index">01</span>
+              <h3>MyBuilder</h3>
+              <p>This is my undergraduated thesis. This web is buildt to help and serving builder to search customer and customer to search builder with their spesification. I focus at the API building. Built with Laravel 10, JWT multi-auth, Spatie and Media Library.</p>
+            </div>
+            <div class="chips"><span>Laravel</span><span>REST API</span><span>React</span><span>JWT</span></div>
+          </div>
+        </a href="https://www.roblox.com/games/74211182278386/Outdoor-Party">
+
+        <a href="https://github.com/gunzxx/Trainkey-v2" target="_blank" class="project reveal">
+          <div class="project-visual party">
+            <span class="project-tag">Typing Test Game</span>
+            <!-- <div class="party-scene">
+              <div class="moon"></div><div class="mountain m1"></div><div class="mountain m2"></div>
+              <div class="pool"></div><div class="stage"></div><div class="dance-floor"></div>
+              <span class="party-label">OUTDOOR<br><b>PARTY</b></span>
+            </div> -->
+            <img src="./img/trainkey.png" title="Trainkey" class="party-scene">
+          </div>
+          <div class="project-info">
+            <div>
+              <span class="project-index">03</span>
+              <h3>Trainkey</h3>
+              <p>Typing test game, build with HTML, CSS, JS and PHP with Laravel framework.</p>
+            </div>
+            <div class="chips"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>PHP</span><span>Laravel</span></div>
+          </div>
+        </a>
+
+        <a href="https://github.com/gunzxx/umkm-palangan" target="_blank" class="project reveal">
+          <div class="project-visual party">
+            <span class="project-tag">ROBLOX / PARTY SYSTEM</span>
+            <!-- <div class="party-scene">
+              <div class="moon"></div><div class="mountain m1"></div><div class="mountain m2"></div>
+              <div class="pool"></div><div class="stage"></div><div class="dance-floor"></div>
+              <span class="party-label">OUTDOOR<br><b>PARTY</b></span>
+            </div> -->
+            <img src="./img/umkm-palangan.png" title="UMKM Palangan" class="party-scene">
+          </div>
+          <div class="project-info">
+            <div>
+              <span class="project-index">03</span>
+              <h3>UMKM Desa Palangan</h3>
+              <p>This is my KKN Project, that is a web site for UMKM in Palangan Village, Jangkar, Situbondo</p>
+            </div>
+            <div class="chips"><span>Luau</span><span>Roblox</span><span>Music Systems</span></div>
+          </div>
+        </a>
+
+        <a href="https://www.roblox.com/games/132278818489837/GNH-Catalog" target="_blank" class="project reveal">
+          <div class="project-visual party">
+            <span class="project-tag">ROBLOX / CATALOG SYSTEM</span>
+            <!-- <div class="avatar-stage">
+              <div class="avatar-ring"></div>
+              <div class="avatar-head">◉</div>
+              <div class="avatar-body"></div>
+              <div class="catalog-ui">
+                <span>GNH</span>
+                <small>CATALOG</small>
+              </div>
+            </div> -->
+            <img src="./img/gnh.webp" title="GNH Catalog" class="party-scene">
+          </div>
+          <div class="project-info">
+            <div>
+              <span class="project-index">02</span>
+              <h3>GNH Catalog</h3>
+              <p>Roblox avatar catalog system with item search, preview, wear, outfit saving, history and avatar customization.</p>
+            </div>
+            <div class="chips"><span>Luau</span><span>Roblox</span><span>Catalog System</span></div>
+          </div>
+        </a>
+
+        <a href="https://www.roblox.com/games/74211182278386/Outdoor-Party" target="_blank" class="project reveal">
+          <div class="project-visual party">
+            <span class="project-tag">ROBLOX / PARTY SYSTEM</span>
+            <!-- <div class="party-scene">
+              <div class="moon"></div><div class="mountain m1"></div><div class="mountain m2"></div>
+              <div class="pool"></div><div class="stage"></div><div class="dance-floor"></div>
+              <span class="party-label">OUTDOOR<br><b>PARTY</b></span>
+            </div> -->
+            <img src="./img/op.webp" title="Outdoor Party" class="party-scene">
+          </div>
+          <div class="project-info">
+            <div>
+              <span class="project-index">03</span>
+              <h3>Outdoor Party</h3>
+              <p>Roblox experience with music systems, synchronized emotes, VIP features and optimized multiplayer logic.</p>
+            </div>
+            <div class="chips"><span>Luau</span><span>Roblox</span><span>Music Systems</span></div>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <section id="stack" class="section stack-section">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <span class="section-number">02 / TOOLKIT</span>
+            <h2>Tech <em>stack.</em></h2>
+          </div>
+          <p>Tools are just tools. I care more about choosing the right one for the problem.</p>
+        </div>
+
+        <div class="stack-grid reveal">
+          <div class="stack-card featured">
+            <span class="stack-no">01</span>
+            <div class="stack-icon">&lt;/&gt;</div>
+            <h3>Web Development</h3>
+            <p>Modern frontend and backend systems (fullstack) with clean API architecture.</p>
+            <div class="stack-list"><span>PHP</span><span>Laravel</span><span>JavaScript</span><span>React</span><span>Next.js</span><span>Tailwind</span></div>
+          </div>
+          <div class="stack-card">
+            <span class="stack-no">02</span>
+            <div class="stack-icon">{ }</div>
+            <h3>Backend & API</h3>
+            <p>Authentication, databases, integrations, realtime features and scalable API flows.</p>
+            <div class="stack-list"><span>Laravel</span><span>Next JS</span><span>Nest JS</span><span>Hapi JS</span><span>JWT</span><span>MySQL</span></div>
+          </div>
+          <div class="stack-card">
+            <span class="stack-no">03</span>
+            <div class="stack-icon">◈</div>
+            <h3>Roblox Development</h3>
+            <p>Making roblox systems like music, avatar catalog systems and other architecture in Roblox with Luau and Roblox Studio.</p>
+            <div class="stack-list"><span>Luau</span><span>Roblox Studio</span></div>
+          </div>
+          <div class="stack-card">
+            <span class="stack-no">04</span>
+            <div class="stack-icon">✦</div>
+            <h3>Other Tools</h3>
+            <p>Comfortable jumping between ecosystems when the project needs it.</p>
+            <div class="stack-list"><span>Python</span><span>Flutter</span><span>Git</span><span>Postman</span><span>Payment Gateway</span><span>Midtrans</span><span>Figma</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section container about-section">
+      <div class="about-grid">
+        <div class="about-title reveal">
+          <span class="section-number">03 / ABOUT ME</span>
+          <!-- <h2>Curious by<br><em>default.</em></h2> -->
+           <br>
+           <img src="img/gunz.png" width="300">
+        </div>
+        <div class="about-copy reveal">
+          <p class="large">I like taking things apart just to understand <em>why</em> they work — then rebuilding them better.</p>
+          <p>My journey started with code and gradually moved across web development, APIs, mobile apps and Roblox development. I enjoy the part where a vague idea becomes a real product people can actually use.</p>
+          <p>I'm currently looking for opportunities where I can contribute, keep learning, and build software that matters.</p>
+          <div class="stats">
+            <div><strong>∞</strong><span>Curiosity</span></div>
+            <div><strong>24/7</strong><span>Learning</span></div>
+            <div><strong>1</strong><span>Goal: keep improving</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+      <div class="contact-orb"></div>
+      <div class="container contact-inner reveal">
+        <span class="section-number">04 / CONTACT</span>
+        <h2>Have an idea?<br><em>Let's build it.</em></h2>
+        <p>Whether it's a web app, API, Roblox system, or something completely different — I'm always interested in a good problem.</p>
+        <div class="contact-actions">
+          <!-- Ganti email di bawah dengan email kamu -->
+          <a class="btn btn-primary big" href="mailto:wwwnuriscs76@gmail.com">Email me<span>↗</span></a>
+          <button class="copy-btn" data-email="wwwnuriscs76@gmail.com">Copy email</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer container">
+    <span>© <span id="year"></span> Gunz. Built with HTML, CSS & JavaScript.</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
